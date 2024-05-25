@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin:auto;
+    padding: 0%; 
+  }
+  #angleForm{
+    background-color:#43a6a8;
+  }
+  
+  /* Header styling */
+  h2 {
+    text-align: center;
+    color: #e60f0f;
+    background-color: #f0f0f0;
+  }
+  
+  /* Form container styling */
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  .box{
+  height: 20px;
+  width: 400px;
+  border: 1px black solid;
+  margin: 0 auto;
+  padding:0 auto;
+  background-color: #ded3de;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .box1{
+  height: 20px;
+  width: 400px;
+  border: 1px black solid;
+  margin: 0 auto;
+  padding:0 auto;
+  background-color: #9cda90;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  /* Label styling */
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  /* Input field styling */
+  input[type="number"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Button styling */
+  button {
+    background-color: #37e208;
+    margin-left:auto;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .highlighted {
+    background-color: green;
+    font-size:25px;
+    border-radius: 5px;
+  }
+  button:hover {
+    background-color: #08aa0b;
+  }
+  #result {
+    margin-top: 20px;
+    text-align: center;
+  }

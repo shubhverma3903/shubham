@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Equivalent Angles Calculator</title>
+<link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+ 
+<form id="angleForm">
+<h2> 2 PROPERLER SHAFT CALCULATOR </h2>
+<label for="angleA">1.Angle on side view, Engine angle to 1st shaft:</label>
+<input type="number" id="angleA" name="angleA" step="any" required>
+<label for="angleB">2.Angle on side view, 1st shaft to 2nd shaft:</label>
+<input type="number" id="angleB" name="angleB" step="any" required>
+<label for="angleC">3.Angle on side view, 2nd shaft to pinion:</label>
+<input type="number" id="angleC" name="angleC" step="any" required>  
+<label for="angleD">4.Angle on Top view, Engine angle to 1st shaft:</label>
+<input type="number" id="angleD" name="angleD" step="any" required>
+<label for="angleE">5.Angle on Top view, 1st shaft to 2nd shaft:</label>
+<input type="number" id="angleE" name="angleE" step="any" required>
+<label for="angleF">6.Angle on Top view, 2nd shaft to pinion:</label>
+<input type="number" id="angleF" name="angleF" step="any" required><br>
+<button type="button" onclick="calculateEquivalentAngles()">Calculate</button>
+</form>
+</body>
+<div id="result"></div>
+ 
+    <script src="script.js"></script>
+ 
+</html>
